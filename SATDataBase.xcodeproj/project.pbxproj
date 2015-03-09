@@ -13,6 +13,12 @@
 		29C90CF01AA2A50400554132 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C90CEF1AA2A50400554132 /* Images.xcassets */; };
 		29C90CF31AA2A50400554132 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C90CF11AA2A50400554132 /* LaunchScreen.xib */; };
 		29C90CFF1AA2A50400554132 /* SATDataBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C90CFE1AA2A50400554132 /* SATDataBaseTests.swift */; };
+		29C90D091AA2A55400554132 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C90D081AA2A55400554132 /* libsqlite3.dylib */; };
+		29C90D161AA2A64700554132 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C90D0D1AA2A64700554132 /* FMDatabase.m */; };
+		29C90D171AA2A64700554132 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C90D0F1AA2A64700554132 /* FMResultSet.m */; };
+		29C90D181AA2A64700554132 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C90D111AA2A64700554132 /* FMDatabaseQueue.m */; };
+		29C90D191AA2A64700554132 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C90D131AA2A64700554132 /* FMDatabaseAdditions.m */; };
+		29C90D1A1AA2A64700554132 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C90D151AA2A64700554132 /* FMDatabasePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +34,27 @@
 /* Begin PBXFileReference section */
 		29C90CE31AA2A50400554132 /* SATDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SATDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C90CE71AA2A50400554132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C90CE81AA2A50400554132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29C90CEA1AA2A50400554132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29C90CED1AA2A50400554132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29C90CEF1AA2A50400554132 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29C90CE81AA2A50400554132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29C90CEA1AA2A50400554132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController.swift; sourceTree = "<group>"; };
+		29C90CED1AA2A50400554132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29C90CEF1AA2A50400554132 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		29C90CF21AA2A50400554132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		29C90CF81AA2A50400554132 /* SATDataBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATDataBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C90CFD1AA2A50400554132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C90CFE1AA2A50400554132 /* SATDataBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATDataBaseTests.swift; sourceTree = "<group>"; };
+		29C90CFE1AA2A50400554132 /* SATDataBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = SATDataBaseTests.swift; sourceTree = "<group>"; };
+		29C90D081AA2A55400554132 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		29C90D0A1AA2A64600554132 /* SATDataBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SATDataBase-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		29C90D0B1AA2A64700554132 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../../fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		29C90D0C1AA2A64700554132 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		29C90D0D1AA2A64700554132 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		29C90D0E1AA2A64700554132 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../../fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		29C90D0F1AA2A64700554132 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		29C90D101AA2A64700554132 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../../fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		29C90D111AA2A64700554132 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		29C90D121AA2A64700554132 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../../fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		29C90D131AA2A64700554132 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		29C90D141AA2A64700554132 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../../fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		29C90D151AA2A64700554132 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C90D091AA2A55400554132 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,7 @@
 		29C90CDA1AA2A50400554132 = {
 			isa = PBXGroup;
 			children = (
+				29C90D081AA2A55400554132 /* libsqlite3.dylib */,
 				29C90CE51AA2A50400554132 /* SATDataBase */,
 				29C90CFB1AA2A50400554132 /* SATDataBaseTests */,
 				29C90CE41AA2A50400554132 /* Products */,
@@ -90,6 +111,18 @@
 		29C90CE61AA2A50400554132 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				29C90D0A1AA2A64600554132 /* SATDataBase-Bridging-Header.h */,
+				29C90D0B1AA2A64700554132 /* FMDB.h */,
+				29C90D0C1AA2A64700554132 /* FMDatabase.h */,
+				29C90D0D1AA2A64700554132 /* FMDatabase.m */,
+				29C90D0E1AA2A64700554132 /* FMResultSet.h */,
+				29C90D0F1AA2A64700554132 /* FMResultSet.m */,
+				29C90D101AA2A64700554132 /* FMDatabaseQueue.h */,
+				29C90D111AA2A64700554132 /* FMDatabaseQueue.m */,
+				29C90D121AA2A64700554132 /* FMDatabaseAdditions.h */,
+				29C90D131AA2A64700554132 /* FMDatabaseAdditions.m */,
+				29C90D141AA2A64700554132 /* FMDatabasePool.h */,
+				29C90D151AA2A64700554132 /* FMDatabasePool.m */,
 				29C90CE71AA2A50400554132 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C90D181AA2A64700554132 /* FMDatabaseQueue.m in Sources */,
+				29C90D161AA2A64700554132 /* FMDatabase.m in Sources */,
 				29C90CEB1AA2A50400554132 /* ViewController.swift in Sources */,
+				29C90D171AA2A64700554132 /* FMResultSet.m in Sources */,
+				29C90D1A1AA2A64700554132 /* FMDatabasePool.m in Sources */,
 				29C90CE91AA2A50400554132 /* AppDelegate.swift in Sources */,
+				29C90D191AA2A64700554132 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +374,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SATDataBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SATDataBase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +387,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SATDataBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SATDataBase-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +448,7 @@
 				29C90D041AA2A50400554132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29C90D051AA2A50400554132 /* Build configuration list for PBXNativeTarget "SATDataBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +457,7 @@
 				29C90D071AA2A50400554132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

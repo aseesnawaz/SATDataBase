@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C14ED5A7-14FD-4187-AFCB-6229DF34C9E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SATDataBase</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04101981B66E318109934C9516F88D824BB96459</key>
+		<string>https://github.com/ccgus/fmdb.git</string>
+		<key>C6ADCE2FA08DC5EB0AF6CB957906846691D4EB04</key>
+		<string>https://github.com/brookyboy009/SATDataBase.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SATDataBase.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04101981B66E318109934C9516F88D824BB96459</key>
+		<string>../../../fmdb</string>
+		<key>C6ADCE2FA08DC5EB0AF6CB957906846691D4EB04</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brookyboy009/SATDataBase.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6ADCE2FA08DC5EB0AF6CB957906846691D4EB04</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04101981B66E318109934C9516F88D824BB96459</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fmdb</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6ADCE2FA08DC5EB0AF6CB957906846691D4EB04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SATDataBase</string>
+		</dict>
+	</array>
+</dict>
+</plist>

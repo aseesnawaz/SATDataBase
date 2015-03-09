@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	29C90CDB1AA2A50400554132 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 29E6319F1AA517B400FC0A54 /* SATDataBase */;
+		activeTarget = 29C90CE21AA2A50400554132 /* SATDataBase */;
+		codeSenseManager = 29E631AE1AA517B800FC0A54 /* Code sense */;
+		executables = (
+			29E6319F1AA517B400FC0A54 /* SATDataBase */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 447027257;
+			PBXWorkspaceStateSaveDate = 447027257;
+		};
+		sourceControlManager = 29E631AD1AA517B800FC0A54 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29C90CE21AA2A50400554132 /* SATDataBase */ = {
+		activeExec = 0;
+		executables = (
+			29E6319F1AA517B400FC0A54 /* SATDataBase */,
+		);
+	};
+	29C90CF71AA2A50400554132 /* SATDataBaseTests */ = {
+		activeExec = 0;
+	};
+	29E6319F1AA517B400FC0A54 /* SATDataBase */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SATDataBase;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	29E631AD1AA517B800FC0A54 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	29E631AE1AA517B800FC0A54 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
